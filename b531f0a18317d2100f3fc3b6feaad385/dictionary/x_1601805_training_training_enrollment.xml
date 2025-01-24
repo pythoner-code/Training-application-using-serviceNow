@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="395538298317d2100f3fc3b6feaad333" label="Training Enrollment" max_length="40" name="x_1601805_training_training_enrollment" type="collection">
+        <element label="Trainee" max_length="32" name="trainee" reference="sys_user" type="reference"/>
+        <element label="Course" mandatory="true" max_length="32" name="course" reference="x_1601805_training_training_course" type="reference"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="Completed"/>
+                <element inactive_on_update="false" label="Failed" value="Failed"/>
+                <element inactive_on_update="false" label="Registered" value="Registered"/>
+            </choice>
+        </element>
+        <element label="Amount Paid" mandatory="true" max_length="40" name="amount_paid" type="integer"/>
+        <element label="Fees Paid" max_length="40" name="fees_paid" type="boolean"/>
+        <element label="Pending Amount" mandatory="true" max_length="40" name="pending_amount" type="integer"/>
+        <element label="Fees" max_length="40" name="fees" type="integer"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="trainee"/>
+        </index>
+    </element>
+</database>

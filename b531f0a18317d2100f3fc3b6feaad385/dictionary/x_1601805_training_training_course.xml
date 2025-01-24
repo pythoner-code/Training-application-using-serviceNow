@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b1c4f8e58317d2100f3fc3b6feaad32f" label="Training Course" max_length="40" name="x_1601805_training_training_course" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Training ID" mandatory="true" max_length="100" name="training_id" read_only="true" type="string"/>
+        <element choice="1" label="Training Type" mandatory="true" max_length="40" name="training_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Classroom" value="Classroom"/>
+                <element inactive_on_update="false" label="Webinar" value="Webinar"/>
+                <element inactive_on_update="false" label="Online" value="Online"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Salesforce" value="Salesforce"/>
+                <element inactive_on_update="false" label=".Net" value=".NET"/>
+                <element inactive_on_update="false" label="ServiceNow" value="ServiceNow"/>
+                <element inactive_on_update="false" label="Java" value="Java"/>
+            </choice>
+        </element>
+        <element label="Max Capacity" mandatory="true" max_length="40" name="max_capacity" type="integer"/>
+        <element label="Duration(in Days)" mandatory="true" max_length="40" name="duration_in_days" type="integer"/>
+        <element label="Name" max_length="30" name="name" type="string"/>
+        <element label="Fees" mandatory="true" max_length="40" name="fees" type="integer"/>
+        <element label="Description" mandatory="true" max_length="100" name="description" type="string"/>
+        <element choice="3" label="Prerequisites" max_length="4000" name="prerequisites" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="ServiceNow Scripting" value="ServiceNow Scripting"/>
+                <element inactive_on_update="false" label="ServiceNow Fundamentals" value="ServiceNow Fundamentals"/>
+                <element inactive_on_update="false" label="Advanced java" value="Advanced java"/>
+                <element inactive_on_update="false" label="HTML" value="HTML"/>
+                <element inactive_on_update="false" label="Javascript Basics" value="Javascript Basics"/>
+                <element inactive_on_update="false" label="Java Basics" value="Java Basics"/>
+            </choice>
+        </element>
+    </element>
+</database>

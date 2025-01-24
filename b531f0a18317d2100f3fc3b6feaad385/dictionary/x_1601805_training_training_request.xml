@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="430570e58317d2100f3fc3b6feaad362" label="Training Request" max_length="40" name="x_1601805_training_training_request" type="collection">
+        <element label="Comments" mandatory="true" max_length="100" name="comments" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="Approved"/>
+                <element inactive_on_update="false" label="Rejected" value="Rejected"/>
+                <element inactive_on_update="false" label="Pending" value="Pending"/>
+            </choice>
+        </element>
+        <element label="Requested Course" mandatory="true" max_length="32" name="requested_course" reference="x_1601805_training_training_course" type="reference"/>
+        <element label="Email" mandatory="true" max_length="30" name="email" type="string"/>
+        <element label="Mobile Number" mandatory="true" max_length="40" name="number" type="integer"/>
+        <element label="Trainee" mandatory="true" max_length="40" name="trainee" type="string"/>
+        <element label="Amount Paid" mandatory="true" max_length="40" name="amount_paid" type="integer"/>
+        <index name="index">
+            <element name="requested_course"/>
+        </index>
+    </element>
+</database>

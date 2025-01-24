@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="prerequisites" table="x_1601805_training_training_course" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>prerequisites</element>
+            <name>x_1601805_training_training_course</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-24 10:10:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>prerequisites</sys_name>
+            <sys_package display_value="Training ServiceNow" source="x_1601805_training">b531f0a18317d2100f3fc3b6feaad385</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training ServiceNow">b531f0a18317d2100f3fc3b6feaad385</sys_scope>
+            <sys_update_name>sys_choice_x_1601805_training_training_course_prerequisites</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-24 10:10:06</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prerequisites</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Advanced java</label>
+            <language>en</language>
+            <name>x_1601805_training_training_course</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-24 10:23:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-24 10:23:16</sys_updated_on>
+            <value>Advanced java</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prerequisites</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HTML</label>
+            <language>en</language>
+            <name>x_1601805_training_training_course</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-24 10:22:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-24 10:22:03</sys_updated_on>
+            <value>HTML</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prerequisites</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Java Basics</label>
+            <language>en</language>
+            <name>x_1601805_training_training_course</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-24 10:10:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-24 10:10:06</sys_updated_on>
+            <value>Java Basics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prerequisites</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Javascript Basics</label>
+            <language>en</language>
+            <name>x_1601805_training_training_course</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-24 10:22:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-24 10:22:20</sys_updated_on>
+            <value>Javascript Basics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prerequisites</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ServiceNow Fundamentals</label>
+            <language>en</language>
+            <name>x_1601805_training_training_course</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-24 10:22:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-24 10:22:39</sys_updated_on>
+            <value>ServiceNow Fundamentals</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prerequisites</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ServiceNow Scripting</label>
+            <language>en</language>
+            <name>x_1601805_training_training_course</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-24 10:23:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-24 10:23:03</sys_updated_on>
+            <value>ServiceNow Scripting</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
